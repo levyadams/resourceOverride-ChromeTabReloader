@@ -1,0 +1,25 @@
+{
+  "name": "welcomecanada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.ipgaxis.com:7999/gcb/gm-vpp-ca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "chrome-tab-reloader": "^1.1.25",
+    "gulp-tinypng-compress": "^1.2.5"
+  }
+}
